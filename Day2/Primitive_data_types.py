@@ -24,8 +24,10 @@
 num_char =  len(input("What is your name? : "))
 
 new_num_char = str(num_char)
-print("Your name contains " + new_num_char + " Chacters")
+# print("Your name contains " + new_num_char + " Chacters")
+##This ia also a way to write this code 
 
+print(f"Your name contains {new_num_char} Chacters")
 
 
 # a = float(123)
