@@ -26,3 +26,15 @@
 
 
 
+# year = 90
+# weeks = 90*52
+# days = weeks*7
+
+user = int(input("Enter your age?: "))
+
+user_year = 90 - user
+user_weeks = user_year*52
+user_days = user_weeks * 7
+user_month = user_year * 12
+print(f"You have {user_days} Days, {user_weeks} Weeks and {user_month} Months left.")
+# print(user_year, user_weeks, user_days, user_month)
