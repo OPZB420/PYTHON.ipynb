@@ -15,8 +15,11 @@
 ## * Pepperoni for Medium Pizza or Large Pizza : +$3
 ## * Extra Cheese for any size Pizza : +$1
 
-print("****! Welcome to Python Pizza !****")
-print("What would you like to eat?")
+
+
+
+print("*******! Welcome to Python Pizza !******")
+print("What would you like to eat?____")
 
 pizza = input("Please Enter S for small pizza, M for Medium pizza and L for Large pizza: ")
 bill = 0
@@ -29,7 +32,7 @@ if pizza == "S":
   pepperoni_s = input("Would you like to add Pepperoni $2 for your small pizza if yes= Y, no = N: ")
   if pepperoni_s =="Y":
     bill +=2
-  
+  ## Ask user for Extra Cheese
   cheese = input("Would you like to add Extra Cheese $1 with your pizz, for yes= Y , no = N: ")
   if cheese == "Y":
     bill +=1
@@ -40,11 +43,11 @@ if pizza == "S":
     
 elif pizza == "M":
   bill = 20
-    
+    ## Ask for pepperoni
   pepperoni_ml = input("Would you like to add Pepperoni $3 for your Medium or Large pizza if yes= Y, no = N: ")
   if pepperoni_ml =="Y":
     bill +=3
-    
+    ## Ask user for Extra Cheese
   cheese = input("Would you like to add Extra Cheese $1 with your pizz, for yes= Y , no = N: ")
   if cheese == "Y":
     bill +=1
@@ -55,11 +58,12 @@ elif pizza == "M":
 
 elif pizza == "L":
   bill = 25
-  
+  ## Ask for pepperoni
   pepperoni_ml = input("Would you like to add Pepperoni $3 for your Medium or Large pizza if yes= Y, no = N: ")
   if pepperoni_ml =="Y":
     bill +=3
 
+## Ask user for Extra Cheese
   cheese = input("Would you like to add Extra Cheese $1 with your pizz, for yes= Y , no = N: ")
   if cheese == "Y":
     bill +=1
@@ -68,6 +72,10 @@ elif pizza == "L":
   
 else:
   print("Please Enter right size!")
+
+
+print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+
 
 
 
