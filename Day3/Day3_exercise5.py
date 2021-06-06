@@ -74,6 +74,7 @@ love = l + o + v + e
 true_love = str(true) + str(love)
 
 print(true_love)
+## Score 
 
 if int(true_love) <= 10 or int(true_love) >= 90 :
   print(f"Your Score is : {true_love}, You go together like coke and mentos.")
