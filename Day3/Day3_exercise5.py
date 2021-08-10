@@ -74,6 +74,7 @@ love = l + o + v + e
 true_love = str(true) + str(love)
 
 print(true_love)
+print(type(true_love))
 ## Score 
 
 if int(true_love) <= 10 or int(true_love) >= 90 :
