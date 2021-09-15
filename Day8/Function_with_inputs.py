@@ -17,11 +17,11 @@
 ## Function that allow for input data
 # print("")
 
-# def greet_with_name(name):
-#     print(f"Hello {name}.")
-#     print(f"How do you do {name} ?")
+def greet_with_name(name):
+    print(f"Hello {name}.")
+    print(f"How do you do {name} ?")
     
-# greet_with_name("ABC")
+greet_with_name("ABC")
 
 
     
